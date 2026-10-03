@@ -1,64 +1,77 @@
 # Thumati Rushendar Reddy
 
-AI/ML engineer based in Hyderabad. I build AI systems that have to be
-defensible, not just impressive — the kind where every number in the output
-traces back to something computed.
+B.Tech Artificial Intelligence and Machine Learning student at Vignan University, Hyderabad.
 
-Currently working across agentic decision intelligence, geospatial computer
-vision, and regulated-industry NLP.
+I like building things that actually do something useful — AI/ML systems, backend APIs, automation tools, and products where the model is only one part of the system.
 
-## What I'm into
+Right now I'm going deep into Python, problem solving, machine learning, PyTorch, backend engineering, and how to build AI systems without blindly depending on an API.
 
-- **Multi-agent systems** where the agents genuinely do different jobs, rather
-  than one prompt split into sequential calls
-- **Grounding** — making it structurally hard for a system to state a number
-  it didn't compute
-- **Local models** — running vision-language and reasoning models on my own GPU
-  where it makes sense instead of defaulting to an API
+## What I'm working on
 
-## Projects
+* Building stronger fundamentals in Python and problem solving
+* Machine learning and deep learning with PyTorch
+* AI agents and tool-based systems
+* Backend development with FastAPI
+* Computer vision and geospatial AI
+* Making AI outputs traceable instead of just trusting whatever the model says
+
+## Things I've built
 
 ### CorporateBaddie
-Agentic decision intelligence platform. Multi-agent investigation pipeline
-(Planner → research → empirical analysis → Critic → Compiler) feeding a
-deterministic pandas engine, with a Three.js decision core on the front end.
-Runs with no API keys at all — providers are optional, the math is not.
 
-`TypeScript` `Python` `React` `Three.js` `LangGraph` `Pandas`
+An agentic decision-intelligence system where different agents handle investigation, research, analysis, criticism, and compilation, while deterministic code handles the actual data calculations.
+
+`Python` `TypeScript` `React` `LangGraph` `Pandas`
+
 → [Corporate-Baddie](https://github.com/trushendarreddy-cell/Corporate-Baddie)
 
 ### SatQuery AI
-Natural-language interface for satellite imagery, built for Smart India Hackathon
-2026. GeoTIFF validation, spectral indices (NDVI/EVI/NDWI/SAVI/NDBI), bi-temporal
-change detection, and a locally-hosted GeoChat-7B vision-language service for
-image comparison. 242 backend tests.
 
-`Python` `FastAPI` `SQLAlchemy` `GDAL` `PyTorch`
-→ [Backend](https://github.com/trushendarreddy-cell/SatQuery-AI) ·
-[Frontend](https://github.com/trushendarreddy-cell/SatQuery-AI-fronend-v4)
+A natural-language interface for working with satellite imagery. The system handles geospatial data, spectral indices, image comparison, change detection, and a locally running GeoChat vision-language model.
+
+Built around a Smart India Hackathon 2026 problem.
+
+`Python` `FastAPI` `PyTorch` `GDAL` `SQLAlchemy`
+
+→ [Backend](https://github.com/trushendarreddy-cell/SatQuery-AI) · [Frontend](https://github.com/trushendarreddy-cell/SatQuery-AI-fronend-v4)
 
 ### AIVOA-QMS
-AI-assisted pharmaceutical quality management. LangGraph workflow for complaint
-extraction, completeness validation, risk assessment, and duplicate detection,
-with root-cause hypotheses and CAPA recommendations.
 
-`Python` `FastAPI` `LangGraph` `Groq` `SQLAlchemy` `MySQL` `React`
-→ [Backend](https://github.com/trushendarreddy-cell/AIVOA-QMS-Backend) ·
-[Frontend](https://github.com/trushendarreddy-cell/AIVOA-QMS-Frontend)
+A pharmaceutical complaint-management system that takes unstructured complaint information and turns it into something a quality team can review.
+
+It covers extraction, completeness checks, risk assessment, duplicate detection, root-cause hypotheses, and CAPA recommendations.
+
+`Python` `FastAPI` `LangGraph` `MySQL` `React`
+
+→ [Backend](https://github.com/trushendarreddy-cell/AIVOA-QMS-Backend) · [Frontend](https://github.com/trushendarreddy-cell/AIVOA-QMS-Frontend)
 
 ### WasteWise 2.0
-24-hour hackathon build. MobileNetV2 waste classification with an ImageNet-label
-mapping layer and a keyword fallback below the confidence threshold, plus carbon
-scoring and a rewards system. I did the backend; my teammate did the frontend.
 
-`Python` `FastAPI` `PyTorch` `SQLAlchemy` `PostgreSQL` `Docker`
-→ [Eco-Agent-UI-WasteWise-2.0-](https://github.com/trushendarreddy-cell/Eco-Agent-UI-WasteWise-2.0-)
+Built in a 24-hour hackathon.
 
-## Stack I reach for
+The system combines waste-image classification, carbon-impact scoring, and product logic around waste handling. I worked mainly on the backend and API side.
 
-`Python` `TypeScript` `JavaScript` `React` `FastAPI` `LangGraph` `LangChain`
-`Pandas` `PyTorch` `SQLAlchemy` `PostgreSQL` `MySQL` `Three.js` `Tailwind`
+**1st place — 24-hour hackathon**
+
+`Python` `FastAPI` `PyTorch` `SQLAlchemy`
+
+→ [WasteWise](https://github.com/trushendarreddy-cell/Eco-Agent-UI-WasteWise-2.0-)
+
+## A few things I've done
+
+* 1st place — 24-hour hackathon
+* 2nd place — AI Agentic Challenge
+* Defender/LB — college football team
+* Coding competition — 8th out of 300 participants
+
+## Currently learning
+
+`Python` · `Problem Solving` · `Machine Learning` · `Deep Learning` · `PyTorch` · `FastAPI` · `Backend` · `Computer Vision`
+
+I don't want to just know how to use these tools. I want to be able to understand what is happening underneath, build things myself, and debug them when they break.
 
 ---
 
-Reach me at [trushendarreddy@gmail.com](mailto:trushendarreddy@gmail.com)
+📍 Hyderabad, India
+
+📧 [trushendarreddy@gmail.com](mailto:trushendarreddy@gmail.com)
