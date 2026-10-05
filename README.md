@@ -19,7 +19,13 @@ Right now I'm going deep into Python, problem solving, machine learning, PyTorch
 
 ### CorporateBaddie
 
+![The 3D decision core](https://raw.githubusercontent.com/trushendarreddy-cell/Corporate-Baddie/main/docs/images/intro.jpg)
+
 An agentic decision-intelligence system where different agents handle investigation, research, analysis, criticism, and compilation, while deterministic code handles the actual data calculations.
+
+Runs with no API keys at all — the providers are optional, the arithmetic is not. Writes to disk are serialised so concurrent requests cannot lose data, and model output is parsed against a fixed schema rather than trusted. Six test suites, CI on every push.
+
+![An investigation result](https://raw.githubusercontent.com/trushendarreddy-cell/Corporate-Baddie/main/docs/images/dashboard.jpg)
 
 `Python` `TypeScript` `React` `LangGraph` `Pandas`
 
@@ -27,9 +33,13 @@ An agentic decision-intelligence system where different agents handle investigat
 
 ### SatQuery AI
 
+![Change detection over satellite imagery](https://raw.githubusercontent.com/trushendarreddy-cell/SatQuery-AI-fronend-v4/master/docs/images/dashboard.jpg)
+
 A natural-language interface for working with satellite imagery. The system handles geospatial data, spectral indices, image comparison, change detection, and a locally running GeoChat vision-language model.
 
 Built around a Smart India Hackathon 2026 problem.
+
+258 backend tests covering the geospatial pipeline, agent tooling, and persistence, run in CI on every push.
 
 `Python` `FastAPI` `PyTorch` `GDAL` `SQLAlchemy`
 
@@ -37,9 +47,13 @@ Built around a Smart India Hackathon 2026 problem.
 
 ### AIVOA-QMS
 
+![The complaint review interface](https://raw.githubusercontent.com/trushendarreddy-cell/AIVOA-QMS-Frontend/main/docs/images/app.jpg)
+
 A pharmaceutical complaint-management system that takes unstructured complaint information and turns it into something a quality team can review.
 
 It covers extraction, completeness checks, risk assessment, duplicate detection, root-cause hypotheses, and CAPA recommendations.
+
+The model client is built lazily, so the complaint endpoints work without an API key and can be tested offline. 16 tests cover duplicate matching and the status workflow.
 
 `Python` `FastAPI` `LangGraph` `MySQL` `React`
 
